@@ -13,5 +13,9 @@ Dataset can be used for Binary Classification sample problems
 
 ## Swagger UI
 
-![image]
+![image]https://github.com/deeptivenugopal/ML_DL__AI_Projects/blob/main/Bank_Note_Auth-FastAPI_Deployment/Get_Index.PNG?raw=true
+
+![image]https://github.com/deeptivenugopal/ML_DL__AI_Projects/blob/main/Bank_Note_Auth-FastAPI_Deployment/Get_Name.PNG?raw=true
+
+![image]https://github.com/deeptivenugopal/ML_DL__AI_Projects/blob/main/Bank_Note_Auth-FastAPI_Deployment/Predict.PNG?raw=true
 
