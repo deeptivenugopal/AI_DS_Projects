@@ -1,18 +1,18 @@
 # Explanations of Regular Expression Used in the Project
 
-#### text = re.sub('[.*?]','',text)
+### text = re.sub('[.*?]','',text)
 
 The provided regular expression '[.*?]' is designed to match and remove text within square brackets. Here's a breakdown of the pattern:
 
 [ : Matches the opening square bracket. .*? : Matches any character (except for a newline) zero or more times, but as few times as possible (non-greedy). ] : Matches the closing square bracket. So, this expression will find and replace anything within square brackets (including the brackets themselves) with an empty string. This will remove the text within square brackets from the original text.
 
-#### text = re.sub('https?://\S+|www.\S+','',text)
+### text = re.sub('https?://\S+|www.\S+','',text)
 
 The regular expression https?://\S+|www.\S+ is designed to match both HTTP and HTTPS URLs, as well as URLs starting with "www." Here's a breakdown of the pattern:
 
 https?:// : Matches "http://" or "https://", where the "?" makes the "s" optional. \S+ : Matches one or more non-whitespace characters. | : Acts as an OR operator. www.\S+ : Matches URLs starting with "www." followed by one or more non-whitespace characters. This expression will replace both HTTP(S) URLs and "www." URLs with an empty string. This will remove both types of URLs from the original text.
 
-#### text = re.sub('<.*?>+','',text)
+### text = re.sub('<.*?>+','',text)
 
 The goal of this code is to remove HTML tags from a text string. <.*?>+: This is the regular expression pattern. Let's break it down:
 
@@ -22,7 +22,7 @@ The goal of this code is to remove HTML tags from a text string. <.*?>+: This is
 
 The purpose of this code is to remove all HTML tags from the text variable. After this line of code is executed, text will contain the original text without any HTML tags.
 
-#### text = re.sub('[%s]' % re.escape(string.punctuation),'',text)
+### text = re.sub('[%s]' % re.escape(string.punctuation),'',text)
 
 %s: This is a placeholder in a string that is later filled by values provided to the string through the % operator. In this case, it's being used to insert the characters from string.punctuation into the pattern.
 
@@ -34,7 +34,7 @@ re.escape(string.punctuation): This escapes any special characters in the punctu
 
 So, the overall purpose of this code is to use a regular expression to remove any characters in the text variable that belong to the set of ASCII punctuation characters. The %s is a way of making the pattern dynamic by inserting the actual punctuation characters into the character class.
 
-#### text = re.sub('\n','',text)
+### text = re.sub('\n','',text)
 
 This line of code is using the re.sub function to replace newline characters (\n) with an empty string in the text variable.
 
@@ -42,7 +42,7 @@ This line of code is using the re.sub function to replace newline characters (\n
 
 So, the pattern \n is used to match newline characters in the text variable, and the replacement is an empty string (''). This effectively removes all newline characters from the text.
 
---text = re.sub('\w*\d\w*','',text)
+### text = re.sub('\w*\d\w*','',text)
 
 \w*: This matches zero or more word characters (alphanumeric characters plus underscore _).
 
