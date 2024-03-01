@@ -77,5 +77,5 @@ After this line of code is executed, the text variable will contain the original
 
 Some of the tweets have not been classified into Hate Speech or other classes. I used here DecisionTree and RandomForest still not getting proper classifications
 
-[image]https://github.com/deeptivenugopal/ML_DL__AI_Projects/blob/main/End_To_End_Hate_Speech_Detection_StreamLit/Streamlit_UI_Pred.PNG?raw=true
+![image](https://github.com/deeptivenugopal/ML_DL__AI_Projects/blob/main/End_To_End_Hate_Speech_Detection_StreamLit/Streamlit_UI_Pred.PNG?raw=true)
 
