@@ -1,7 +1,9 @@
+# Hate Speech Detection using ML and Python
+
+This project is to detec Hate Speeches in tweets and classify into Hate Speech, Offensive Language or No Hate/Offensive tweets
 
 
-
-# Regular Expression
+## Explanations of Regular Expression Used in the Project
 
 text = re.sub('\[.*?\]','',text)
 
@@ -70,3 +72,10 @@ So, the pattern \w*\d\w* is designed to match any substring that contains at lea
 
 After this line of code is executed, the text variable will contain the original text with any alphanumeric sequences containing digits removed.
 After this line of code is executed, the text variable will contain the original text with all newline characters removed.
+
+# UI screen
+
+Some of the tweets have not been classified into Hate Speech or other classes. I used here DecisionTree and RandomForest still not getting proper classifications
+
+
+
